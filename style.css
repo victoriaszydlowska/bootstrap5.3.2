@@ -1,0 +1,95 @@
+  body {
+      padding-top: 3rem;
+    }
+    
+  .gradient {
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      background-size: 100% 100%;
+      background-image: linear-gradient(-47deg, rgb(132, 255, 32) 0%, rgb(125, 255, 125) 25%, rgb(147, 247, 125) 51%, #fcf93c 100%);
+  }
+    
+  .toast {
+  width:100%;
+  }
+  .toast-header {
+    float:right;
+    margin: 0;
+  }
+  .btn-close{
+    margin: 0px 0px 0px 0px;
+    padding: 0.45rem;
+  }
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  .carousel-item {
+    height: 32rem;
+    background-color: rgb(3, 3, 3);
+
+  }
+
+  .logo-font {
+    font-family: 'Abhaya Libre', serif;
+  }
+  
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+
+.bd-example {
+  --bd-example-padding: 1rem;
+  position: relative;
+  padding: var(--bd-example-padding);
+  margin: 0 -1.5rem 1rem;
+  border: solid var(--bs-border-color);
+  border-width: 1px 0;
+}
+  
+  
+  @media (min-width: 768px){
+.bd-example {
+    --bd-example-padding: 2rem 17rem;
+    margin-right: 0;
+    margin-left: 0;
+    border-width: 1px;
+    border-radius: var(--bs-border-radius);
+} 
+  }
+
+
+  @media (min-width: 40em) {
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  
